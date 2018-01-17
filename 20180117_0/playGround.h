@@ -11,7 +11,7 @@ private:
 
 	gameNode* _currentScene;
 	
-
+	RECT _RC;
 public:
 	virtual HRESULT init(void);		//초기화 함수
 	virtual void release(void);		//메모리 관련 해제
