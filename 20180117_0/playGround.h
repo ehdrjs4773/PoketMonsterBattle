@@ -13,8 +13,12 @@ private:
 	
 	RECT _RC;
 	float x;
+<<<<<<< HEAD
 
 	DWORD yeahhhh;
+=======
+	int a, b, c, d;
+>>>>>>> e1c60783b6561482d43cd08c191b30aff72c4972
 public:
 	virtual HRESULT init(void);		//초기화 함수
 	virtual void release(void);		//메모리 관련 해제
